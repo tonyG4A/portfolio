@@ -5,45 +5,66 @@ body {
 }
 
 img{
-    float: right;
+    float: left;
 }
 p{
-    clear: right;
+    display: flex;
+    flex-wrap: wrap;
 }
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     background-color: #312d2d;
     color: #f4f5f4;
-    padding: 30px 0;
+    padding: 30px 10%;
 
 }
 
+ul{
+    border: 10px solid;
+    border-color: #4a4848;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+li a{
+    display:  block;
+    color: #4a4848;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    padding: 10px 15px;
+    text-align: justify;
+    text-decoration: none;
+
+
+}
 h1{
-    padding: 15px;
-    height: 20px;
-    border: 5px solid;
-    border-color: lemonchiffon;
-    background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 200%;
+    font-size: 50px;
     color: rgb(144, 169, 169);
 }
-a {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 150%;
-    color: rgb(144, 169, 169);
-    
-}
+
 a:hover{
-    text-shadow:0px 0px 10px rgb(206, 215, 223);
+    text-shadow:0px 0px 10px rgb(21, 21, 22);
+}
+
+img{
+    float: right;
 }
 
 .section {
-    padding: 50px 0;
-    text-align: left;
-    font-size: 150%;
-}
+    border: 15px solid;
+    border-color: #312d2d;
+    background-color: #4a4848;
+    width: auto;
+    height: auto;
+    padding: 10px;
+} 
 
 
 footer {
@@ -54,18 +75,14 @@ footer {
 }
 
 .container {
-    max-width: 800px;
+    display: flow-root;
+    max-width: 700px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
 }
 
-#aboutme, #portfolio{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
-    height: 250px;
-    margin-left: 20%;
+#aboutme, #Work{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
     color: #ffffff;
-    background-color: #4a4848;
 }
