@@ -7,6 +7,8 @@ body {
 img{
     float: left;
 }
+
+img:hover
 p{
     display: flex;
     flex-wrap: wrap;
@@ -29,7 +31,6 @@ ul{
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    background-color: antiquewhite;
 }
 
 li a{
@@ -40,6 +41,7 @@ li a{
     padding: 10px 15px;
     text-align: justify;
     text-decoration: none;
+    color: #9f9578;
 
 
 }
@@ -84,5 +86,11 @@ footer {
 #aboutme, #Work{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
+    color: #ffffff;
+}
+
+#contact{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
 }
